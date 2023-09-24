@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "categoryId": 1001,
+      "name": "Fiction"
+    },
+    {
+      "categoryId": 1002,
+      "name": "Non-Fiction"
+    },
+    {
+      "categoryId": 1003,
+      "name": "Kids"
+    },
+    {
+      "categoryId": 1004,
+      "name": "Bestseller"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "price": 699,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1002,
+      "title": "It Starts With Us",
+      "author": "Colleen Hoover",
+      "price": 799,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1003,
+      "title": "Ugly Love",
+      "author": "Colleen Hoover",
+      "price": 599,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1004,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 699,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1005,
+      "title": "Regretting You",
+      "author": "Colleen Hoover",
+      "price": 899,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1006,
+      "title": "The House In Pines",
+      "author": "Aya Reyes",
+      "price": 499,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1007,
+      "title": "The Housemaid",
+      "author": "Freida McFadden",
+      "price": 599,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1008,
+      "title": "Girl In Pieces",
+      "author": "Kathleen Glasgow",
+      "price": 599,
+      "isPublic": true,
+      "categoryId": 1001
+    }
+  ]
+}

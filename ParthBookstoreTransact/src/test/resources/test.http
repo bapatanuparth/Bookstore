@@ -1,0 +1,81 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8081/ParthBookstoreOrder/api/categories
+Accept: application/json
+
+
+###
+# curl 'http://localhost:8081/ParthBookstoreOrder/api/orders'
+#  -H 'Accept: */*'
+#  -H 'Accept-Language: en-US,en'
+#  -H 'Cache-Control: max-age=0'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Origin: http://localhost:5173'
+#  -H 'Referer: http://localhost:5173/'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-site'
+#  -H 'Sec-GPC: 1'
+#  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Chromium";v="112", "Brave";v="112", "Not:A-Brand";v="99"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "Windows"'
+#  --data-raw '{"cart":{"itemArray":[{"book":{"bookId":1003,"title":"Ugly Love","author":"Colleen Hoover","description":"","price":599,"isPublic":false,"rating":0,"isFeatured":false,"categoryId":1001},"quantity":1}]},"customerForm":{"name":"Parth Bapat","address":"1208 D University Terrace","phone":"5405583282","email":"bapatparth98@gmail.com","ccNumber":"4444333322221111","ccExpiryMonth":4,"ccExpiryYear":2023}}'
+#  --compressed
+POST http://localhost:8081/ParthBookstoreOrder/api/orders
+Accept: */*
+Accept-Language: en-US,en
+Cache-Control: max-age=0
+Connection: keep-alive
+Origin: http://localhost:5173
+Referer: http://localhost:5173/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-GPC: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+sec-ch-ua: "Chromium";v="112", "Brave";v="112", "Not:A-Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1003,
+          "title": "Ugly Love",
+          "author": "Colleen Hoover",
+          "description": "",
+          "price": 599,
+          "isPublic": false,
+          "rating": 0,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "aaaa",
+    "address": "1208 UT",
+    "phone": "5405583282",
+    "email": "bapatparth98@gmail.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 4,
+    "ccExpiryYear": 2023
+  }
+}
+
+###
+
+

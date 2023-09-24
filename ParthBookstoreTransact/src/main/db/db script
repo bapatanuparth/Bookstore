@@ -1,0 +1,24 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1001;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`) VALUES ('Fiction'),('Non-fiction'),('Kids'),('Bestseller');
+
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('To Kill A Mockingbird','Harper Lee','',699,0,TRUE,FALSE,1001);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('It Starts With Us','Colleen Hoover','',799,0,TRUE,FALSE,1001);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('Ugly Love','Colleen Hoover','',599,0,FALSE,FALSE,1001);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Midnight Library','Colleen Hoover','',699,0,FALSE,FALSE,1001);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Art Of War','Sun Tzu','',699,0,TRUE,FALSE,1002);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Book of Five Rings','Gary Chapman','',799,0,TRUE,FALSE,1002);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Big Lebowski','Joel Coen','',599,0,FALSE,FALSE,1002);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('Cinema Speculation','George Huang','',699,0,FALSE,FALSE,1002);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Cat In The Hat','Dr. Seuss','',699,0,TRUE,FALSE,1003);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Giving Tree','Shell Silverstein','',899,0,FALSE,FALSE,1003);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('Horton Hears A Who!','Dr. Seuss','',599,0,FALSE,FALSE,1003);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('An Gruffalo','Julia Donaldson','',399,0,TRUE,FALSE,1003);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('Regretting You','Colleen Hoover','',699,0,FALSE,FALSE,1004);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The House In Pines','Aya Reyes','',499,0,TRUE,FALSE,1004);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('The Housemaid','Freida McFadden','',599,0,FALSE,FALSE,1004);
+INSERT INTO book(title,author,description,price,rating,is_public,is_featured,category_id) VALUES ('Girl In Pieces','Kathleen Glasgow','',899,0,TRUE,FALSE,1004);
